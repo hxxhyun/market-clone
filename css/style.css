@@ -9,9 +9,9 @@ body {
     sans-serif;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 500px) {
   .mediaInfoMsg {
-    opacity: 0;
+    display: none !important;
   }
 }
 
