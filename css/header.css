@@ -1,0 +1,54 @@
+header {
+  margin-top: 10px;
+  border-bottom: 1px solid #ededdf;
+}
+
+.infoBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.infoBar__time {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.infoBar__icons img {
+  width: 15px;
+}
+
+.menuBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 7px 5px 7px;
+}
+
+.menuBar__location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.menuBar__location img {
+  width: 15px;
+}
+
+.menuBar__location-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.menuBar__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.menuBar__icons img {
+  width: 25px;
+}
